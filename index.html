@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Today's Date</title>
+    
+</head>
+ 
+<body>
+  <script>
+      let d = Math.round(Math.random() * (99999999 - 10000) + 10000);
+      while (d%1623 != 0) {
+        d++;
+      }
+      document.body.innerHTML = "Random value is " + d + ""
+  </script>
+</body>
+
+</html>
