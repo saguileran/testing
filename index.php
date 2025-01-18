@@ -13,7 +13,7 @@
     $d = rand(10000, 99999999);
     
     // Increment until divisible by 1623
-    while ($d % 1623 != 0) {
+    while ($d % 1949 != 0) {
         $d++;
     }
     
